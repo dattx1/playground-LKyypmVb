@@ -1,0 +1,7 @@
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.deps.json
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.csproj.CoreCompileInputs.cache
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.AssemblyInfoInputs.cache
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.AssemblyInfo.cs
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.runtimeconfig.json
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.runtimeconfig.dev.json
