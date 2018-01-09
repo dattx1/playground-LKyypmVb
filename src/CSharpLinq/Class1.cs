@@ -1,8 +1,15 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CSharpLinq
 {
-    public class Class1
+    class Class1
     {
+        static void Main()
+        {
+            string[] words = { "learning", "C#", "is", "fun" };
+        }
     }
 }
