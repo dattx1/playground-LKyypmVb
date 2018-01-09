@@ -1,10 +1,10 @@
 title: C# Professional - LINQ - Exercices
 plan:
-- title: Welcome
+- title: LINQ
   statement: markdowns/welcome.md
 projects:
   csharp:
-    root: /csharp-project
+    root: /src
     runner:
       name: techio/dotnet-runner
       version: 1.1.0-dotnet-1.1-sdk-msbuild
