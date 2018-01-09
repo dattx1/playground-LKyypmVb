@@ -1,16 +1,15 @@
-# Welcome!
+# IEquatable&lt;T&gt;
+Using IEquatable Interface
 
-This C# template lets you get started quickly with a simple working example using .Net Core. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+The IEquatable interface is used to compare two objects by providing the Equals method. It is similar to the Equals method of the Object class (that we have discussed in the preceding), the only difference between the two is that the Equals method of The IEquatable interface is a generic method and it avoids the boxing and unboxing of objects that improves the performance.
+@[Exercice on IEquatable&lt;T&gt;]({"stubs": ["Exercises/EqualStub.cs"],"command": "TechIo.EqualTest.VerifyEquality"})
 
+::: Solution
 
-The source code is on [GitHub](https://github.com/TechDotIO/csharp-template), please feel free to come up with proposals to improve it.
+Change line **16** by this code:
+`return (this.Id == other.Id && this.Name == other.Name);`
 
-# Hands-on Demo
-
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["Exercises/UniverseStub.cs"],"command": "TechIo.UniverseTest.VerifyCountAllStars"})
-
-Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/csharp-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
-
+:::
 # Template Resources
 
 [`markdowns/welcome.md`](https://github.com/TechDotIO/csharp-template/blob/master/markdowns/welcome.md)
