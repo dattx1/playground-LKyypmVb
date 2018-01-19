@@ -14,7 +14,7 @@ namespace CSharpLinq.Exercises
     // LINQ Query.  
     var subset = from theElement in elements  
                  where theElement.AtomicNumber < 22  
-                 orderby theElement.Name  
+                 orderby theElement.Name.Contains("ca")  
                  select theElement;  
 
     foreach (Element theElement in subset)  
