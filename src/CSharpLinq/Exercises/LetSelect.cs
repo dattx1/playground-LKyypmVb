@@ -7,6 +7,26 @@ namespace CSharpLinq.Exercises
 {
     public class LetSelect
     {
+        private static void ShowLINQ()  
+{  
+    List<Element> elements = BuildList();  
+
+    // LINQ Query.  
+    var subset = from theElement in elements  
+                 where theElement.AtomicNumber < 22  
+                 orderby theElement.Name  
+                 select theElement;  
+
+    foreach (Element theElement in subset)  
+    {  
+        Console.WriteLine(theElement.Name + " " + theElement.AtomicNumber);  
+    }  
+
+    // Output:  
+    //  Calcium 20  
+    //  Potassium 19  
+    //  Scandium 21  
+}
         private static List<Element> BuildList()  
 {  
     return new List<Element>  
