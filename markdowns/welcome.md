@@ -1,7 +1,7 @@
 # LINQ Examples
 
 
-##Use of Let and Select
+## Use of Let and Select
 ```C# runnable
 using System;
 using System.Collections;
@@ -57,10 +57,10 @@ namespace LinqQueries
 }
 ```
 
-##Use of orderby/groupBy
+## Use of orderby/groupBy
+   
+## Useful extension methods
 
-##Useful extension methods
-
-###Cout()
-###Skip()
-###Any()
+### Cout()
+### Skip()
+### Any()
