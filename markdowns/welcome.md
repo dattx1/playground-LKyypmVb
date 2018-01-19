@@ -1,7 +1,7 @@
+# LINQ Examples
 
 
-
-
+##Use of Let and Select
 ```C# runnable
 using System;
 using System.Collections;
@@ -14,17 +14,6 @@ namespace LinqQueries
     {
         static void Main(string[] args)
         {
-            //string[] words = { "learning", "C#", "is", "fun" };
-            //var query = (from word in words
-            //                            where word.Length >= 2
-            //                            select word).Skip(3);
-
-            //foreach (var str in query)
-            //    Console.WriteLine(str);
-
-
-
-            //Console.ReadKey();
 
             List<Element> elements = BuildList();
 
@@ -66,7 +55,12 @@ namespace LinqQueries
         }
     }
 }
-
-
-
 ```
+
+##Use of orderby/groupBy
+
+##Useful extension methods
+
+###Cout()
+###Skip()
+###Any()
