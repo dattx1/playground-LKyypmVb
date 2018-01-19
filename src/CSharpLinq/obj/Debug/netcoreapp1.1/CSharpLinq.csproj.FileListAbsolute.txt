@@ -9,3 +9,13 @@ C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.
 C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.csproj.CoreCompileInputs.cache
 C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.AssemblyInfoInputs.cache
 C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.AssemblyInfo.cs
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.deps.json
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.runtimeconfig.json
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.runtimeconfig.dev.json
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\bin\Debug\netcoreapp1.1\CSharpLinq.pdb
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.dll
+C:\CSharp\playground-LKyypmVb\src\CSharpLinq\obj\Debug\netcoreapp1.1\CSharpLinq.pdb
