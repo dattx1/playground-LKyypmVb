@@ -19,20 +19,14 @@ namespace LinqQueries
 
             // LINQ Query.  
             var subset = from theElement in elements
-                         let bigElement = theElement.Name.ToLower()
-                         where bigElement.Contains("ca")
+                         let specificElement = theElement.Name.ToLower()
+                         where specificElement.Contains("ca")
                          select theElement;
 
             foreach (Element theElement in subset)
             {
                 Console.WriteLine(theElement.Name + " " + theElement.AtomicNumber);
             }
-            Console.ReadKey();
-
-            // Output:  
-            //  Calcium 20
-            //  Scandium 21  
-
         }
 
         private static List<Element> BuildList()
@@ -42,7 +36,9 @@ namespace LinqQueries
         { new Element() { Symbol="K", Name="Potassium", AtomicNumber=19}},
         { new Element() { Symbol="Ca", Name="Calcium", AtomicNumber=20}},
         { new Element() { Symbol="Sc", Name="Scandium", AtomicNumber=21}},
-        { new Element() { Symbol="Ti", Name="Titanium", AtomicNumber=22}}
+        { new Element() { Symbol="Ti", Name="Titanium", AtomicNumber=22}},
+		{ new Element() { Symbol="V", Name="Vanadium", AtomicNumber=23}},
+		{ new Element() { Symbol="Cr", Name="Chromium", AtomicNumber=24}}
     };
         }
 
