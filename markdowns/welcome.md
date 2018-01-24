@@ -20,7 +20,7 @@ namespace LinqQueries
             // LINQ Query.  
             var subset = from theElement in elements
                          let bigElement = theElement.Name.ToLower()
-                         where bigElement.contains(ca)
+                         where bigElement.contains("ca")
                          select theElement;
 
             foreach (Element theElement in subset)
@@ -30,8 +30,7 @@ namespace LinqQueries
             Console.ReadKey();
 
             // Output:  
-            //  Calcium 20  
-            //  Potassium 19  
+            //  Calcium 20
             //  Scandium 21  
 
         }
