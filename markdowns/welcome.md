@@ -8,7 +8,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-//}
+// }
 namespace LinqQueries
 {
     class Program
@@ -49,7 +49,7 @@ namespace LinqQueries
             public string Name { get; set; }
             public int AtomicNumber { get; set; }
         }
-		//}
+// }
     }
 }
 ```
