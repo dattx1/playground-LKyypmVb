@@ -8,7 +8,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-// }
+
+
 namespace LinqQueries
 {
     class Program
@@ -16,6 +17,8 @@ namespace LinqQueries
         static void Main(string[] args)
         {
 
+
+// }
             List<Element> elements = BuildList();
 
             // LINQ Query.  
