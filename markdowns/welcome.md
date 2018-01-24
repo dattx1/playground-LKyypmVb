@@ -20,7 +20,7 @@ namespace LinqQueries
             // LINQ Query.  
             var subset = from theElement in elements
                          let bigElement = theElement.Name.ToLower()
-                         where bigElement.contains("ca")
+                         where bigElement.Contains("ca")
                          select theElement;
 
             foreach (Element theElement in subset)
