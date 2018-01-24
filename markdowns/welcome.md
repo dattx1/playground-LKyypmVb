@@ -3,11 +3,12 @@
 
 ## Use of Let and Select
 ```C# runnable
+// { autofold
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-
+//}
 namespace LinqQueries
 {
     class Program
@@ -41,13 +42,14 @@ namespace LinqQueries
 		{ new Element() { Symbol="Cr", Name="Chromium", AtomicNumber=24}}
     };
         }
-
+// { autofold
         public class Element
         {
             public string Symbol { get; set; }
             public string Name { get; set; }
             public int AtomicNumber { get; set; }
         }
+		//}
     }
 }
 ```
