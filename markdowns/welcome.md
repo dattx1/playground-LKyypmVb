@@ -15,8 +15,6 @@ namespace LinqQueries
     {
         static void Main(string[] args)
         {
-
-
 // }
             List<Element> elements = BuildList();
 
@@ -51,9 +49,9 @@ namespace LinqQueries
             public string Name { get; set; }
             public int AtomicNumber { get; set; }
         }
-// }
     }
 }
+// }
 ```
 
 ## Use of orderby/groupBy
