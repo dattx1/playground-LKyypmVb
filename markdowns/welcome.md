@@ -98,8 +98,8 @@ namespace LinqQueries
         { new Element() { Family="Noble gas" Symbol="Ar", Name="Argon", AtomicNumber=18}},
 		{ new Element() { Family="Alkali metal" Symbol="Na", Name="Sodium", AtomicNumber=11}}
 		{ new Element() { Family="Noble gas" Symbol="Rn", Name="Radon", AtomicNumber=86}},
-		{ new Element() { Family="Alkali metal" Symbol="K", Name="Potassium", AtomicNumber=19}}
-		{ new Element() { Family="Halogen" Symbol="At", Name="Astatine", AtomicNumber=85}}
+		{ new Element() { Family="Alkali metal" Symbol="K", Name="Potassium", AtomicNumber=19}},
+		{ new Element() { Family="Halogen" Symbol="At", Name="Astatine", AtomicNumber=85}},
 		{ new Element() { Family="Alkali metal" Symbol="Li", Name="Lithium", AtomicNumber=3}}
     };
         }
