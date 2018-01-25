@@ -85,7 +85,6 @@ namespace LinqQueries
                     Console.WriteLine("\t- {0}",element.Name);
                 }
             }
-            Console.ReadKey();
         }
 
         private static List<Element> BuildList()
@@ -150,7 +149,6 @@ namespace LinqQueries
             {
                 Console.WriteLine("The {0} family has {1} members in the list.", familyGrp.Name, familyGrp.Count);
             }
-            Console.ReadKey();
         }
 
         private static List<Element> BuildList()
@@ -207,7 +205,6 @@ namespace LinqQueries
             {
                 Console.WriteLine(element.Name);
             }
-            Console.ReadKey();
         }
 
         private static List<Element> BuildList()
