@@ -68,23 +68,24 @@ namespace LinqQueries
     {
         static void Main(string[] args)
         {
-// }
+            // }
             List<Element> elements = BuildList();
 
             // LINQ Query.  
             var subset = from theElement in elements
                          group theElement by theElement.Family into familyGroup
-						 orderby familyGroup.Key
-						 select familyGroup;
+                         orderby familyGroup.Key
+                         select familyGroup;
 
             foreach (var familyGrp in subset)
-			{
-				Console.WriteLine("Family: {0}", familyGrp.Key);
-				foreach (var element in familyGrp)
-				{
-					Console.WriteLine("\t{element.Name}");
-				}
-    }
+            {
+                Console.WriteLine("Family: {0}", familyGrp.Key);
+                foreach (var element in familyGrp)
+                {
+                    Console.WriteLine("\t- {0}",element.Name);
+                }
+            }
+            Console.ReadKey();
         }
 
         private static List<Element> BuildList()
@@ -92,23 +93,24 @@ namespace LinqQueries
             return new List<Element>
     {
         { new Element() { Family="Noble gas", Symbol="He", Name="Helium", AtomicNumber=2}},
-		{ new Element() { Family="Halogen", Symbol="F", Name="Fluorine", AtomicNumber=9}},
+        { new Element() { Family="Halogen", Symbol="F", Name="Fluorine", AtomicNumber=9}},
         { new Element() { Family="Noble gas", Symbol="Ne", Name="Neon", AtomicNumber=10}},
-		{ new Element() { Family="Halogen", Symbol="Cl", Name="Chlorine", AtomicNumber=17}},
+        { new Element() { Family="Halogen", Symbol="Cl", Name="Chlorine", AtomicNumber=17}},
         { new Element() { Family="Noble gas", Symbol="Ar", Name="Argon", AtomicNumber=18}},
-		{ new Element() { Family="Alkali metal", Symbol="Na", Name="Sodium", AtomicNumber=11}},
-		{ new Element() { Family="Noble gas", Symbol="Rn", Name="Radon", AtomicNumber=86}},
-		{ new Element() { Family="Alkali metal", Symbol="K", Name="Potassium", AtomicNumber=19}},
-		{ new Element() { Family="Halogen", Symbol="At", Name="Astatine", AtomicNumber=85}},
-		{ new Element() { Family="Alkali metal", Symbol="Li", Name="Lithium", AtomicNumber=3}}
+        { new Element() { Family="Alkali metal", Symbol="Na", Name="Sodium", AtomicNumber=11}},
+        { new Element() { Family="Noble gas", Symbol="Rn", Name="Radon", AtomicNumber=86}},
+        { new Element() { Family="Alkali metal", Symbol="K", Name="Potassium", AtomicNumber=19}},
+        { new Element() { Family="Halogen", Symbol="At", Name="Astatine", AtomicNumber=85}},
+        { new Element() { Family="Alkali metal", Symbol="Li", Name="Lithium", AtomicNumber=3}}
     };
         }
-// { autofold
+        // { autofold
         public class Element
         {
             public string Symbol { get; set; }
             public string Name { get; set; }
             public int AtomicNumber { get; set; }
+            public string Family { get; set; }
         }
     }
 }
