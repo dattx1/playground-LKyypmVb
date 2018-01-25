@@ -92,7 +92,7 @@ namespace LinqQueries
             return new List<Element>
     {
         { new Element() { Family="Noble gas" Symbol="He", Name="Helium", AtomicNumber=2}},
-		{ new Element() { Family="Halogen" Symbol="F", Name="Fluorine", AtomicNumber=9}}
+		{ new Element() { Family="Halogen" Symbol="F", Name="Fluorine", AtomicNumber=9}},
         { new Element() { Family="Noble gas" Symbol="Ne", Name="Neon", AtomicNumber=10}},
 		{ new Element() { Family="Halogen" Symbol="Cl", Name="Chlorine", AtomicNumber=17}}
         { new Element() { Family="Noble gas" Symbol="Ar", Name="Argon", AtomicNumber=18}},
