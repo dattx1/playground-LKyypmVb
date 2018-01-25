@@ -96,7 +96,7 @@ namespace LinqQueries
         { new Element() { Family="Noble gas" Symbol="Ne", Name="Neon", AtomicNumber=10}},
 		{ new Element() { Family="Halogen" Symbol="Cl", Name="Chlorine", AtomicNumber=17}}
         { new Element() { Family="Noble gas" Symbol="Ar", Name="Argon", AtomicNumber=18}},
-		{ new Element() { Family="Alkali metal" Symbol="Na", Name="Sodium", AtomicNumber=11}}
+		{ new Element() { Family="Alkali metal" Symbol="Na", Name="Sodium", AtomicNumber=11}},
 		{ new Element() { Family="Noble gas" Symbol="Rn", Name="Radon", AtomicNumber=86}},
 		{ new Element() { Family="Alkali metal" Symbol="K", Name="Potassium", AtomicNumber=19}},
 		{ new Element() { Family="Halogen" Symbol="At", Name="Astatine", AtomicNumber=85}},
