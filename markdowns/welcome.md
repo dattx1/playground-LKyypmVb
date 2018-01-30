@@ -294,7 +294,7 @@ namespace LinqQueries
         { new SymbolElement() { Symbol="Ar", AtomicNumber=18}},
         { new SymbolElement() { Symbol="Na", AtomicNumber=11}},
         { new SymbolElement() { Symbol="Rn", AtomicNumber=86}},
-        { new SymbolElement() { AtomicNumber=19}},
+        { new SymbolElement() { Symbol="K", AtomicNumber=19}},
         { new SymbolElement() { Symbol="At", AtomicNumber=85}},
         { new SymbolElement() { Symbol="Li", AtomicNumber=3}}
     };
